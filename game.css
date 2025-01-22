@@ -1,0 +1,74 @@
+/* Genel Stil Ayarları */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3E5879;
+}
+
+html {
+    cursor: none;
+}
+
+/* Oyun Alanı */
+.game {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 80vh;
+    border: 3px solid #BCCCDC;
+    border-radius: 2%;
+    overflow: hidden;
+    background: linear-gradient(217deg, #253342, #2D4159);
+}
+
+/* Raket Stili */
+.racket {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 20px;
+    background: linear-gradient(217deg, #FF748B, #009990, #FFE893);
+    border-radius: 10px;
+}
+
+/* Top Stili */
+.ball {
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: #72BAA9;
+    border-radius: 50%;
+}
+
+/* Tuğlalar */
+.brick {
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    border: 1px solid #4C585B;
+    border-radius: 10%;
+}
+
+/* Tuğla Renkleri */
+.brick:nth-child(3n) {
+    background-color: #FF5733; /* Kırmızımsı ton */
+}
+
+.brick:nth-child(3n+1) {
+    background-color: #FFC300; /* Sarı ton */
+}
+
+.brick:nth-child(3n+2) {
+    background-color: #33FF57; /* Yeşilimsi ton */
+}
