@@ -8,3 +8,5 @@ English :
  Event Management: I improved my ability to manage events (event listeners) that react according to the user's mouse or keyboard input within the game mechanics. In this way, player movements and other interactions in the game became more fluid.
 
  This project provided an experience that was both fun and educational, allowing me to better understand and apply JavaScript. In summary, the Brick Breaker game development process has been a valuable learning opportunity for me. 😊
+
+https://www.linkedin.com/feed/update/urn:li:activity:7285752213593841665/
